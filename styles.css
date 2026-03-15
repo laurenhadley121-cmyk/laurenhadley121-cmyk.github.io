@@ -1,12 +1,12 @@
 :root {
-  --bg: #0b1020;
-  --surface: #121a33;
-  --text: #e7ecff;
-  --muted: #aab6e5;
-  --primary: #7aa2ff;
-  --primary-strong: #4f83ff;
-  --border: #2a355f;
-  --success: #7be495;
+  --bg: #390022;
+  --surface: #520035;
+  --text: #ffe6f7;
+  --muted: #f7afd8;
+  --primary: #ff4fb3;
+  --primary-strong: #ff1493;
+  --border: #a10067;
+  --success: #ff7ac8;
   --max-width: 1000px;
 }
 
@@ -19,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  background: radial-gradient(circle at top right, #1a2450 0%, var(--bg) 45%);
+  background: radial-gradient(circle at top right, #ff69b4 0%, var(--bg) 45%);
   color: var(--text);
   line-height: 1.6;
 }
@@ -35,7 +35,7 @@ a {
 
 header {
   border-bottom: 1px solid var(--border);
-  background: rgba(11, 16, 32, 0.85);
+  background: rgba(57, 0, 34, 0.88);
   backdrop-filter: blur(8px);
   position: sticky;
   top: 0;
@@ -126,7 +126,7 @@ header {
 }
 
 .card {
-  background: rgba(18, 26, 51, 0.85);
+  background: rgba(82, 0, 53, 0.85);
   border: 1px solid var(--border);
   border-radius: 0.9rem;
   padding: 1rem;
@@ -138,8 +138,8 @@ header {
 
 .badge {
   display: inline-block;
-  background: rgba(122, 162, 255, 0.15);
-  border: 1px solid rgba(122, 162, 255, 0.35);
+  background: rgba(255, 79, 179, 0.2);
+  border: 1px solid rgba(255, 79, 179, 0.5);
   color: var(--primary);
   padding: 0.2rem 0.55rem;
   border-radius: 999px;
@@ -174,10 +174,10 @@ header {
 
 .note {
   border-left: 3px solid var(--success);
-  background: rgba(123, 228, 149, 0.09);
+  background: rgba(255, 122, 200, 0.15);
   padding: 0.8rem 1rem;
   border-radius: 0 0.5rem 0.5rem 0;
-  color: #d9fbe2;
+  color: #ffd9f0;
 }
 
 @media (max-width: 760px) {
