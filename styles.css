@@ -1,3 +1,10 @@
+/* Remove bullet and align LinkedIn row */
+.linkedin-row {
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
 /* LinkedIn link styling */
 .linkedin-link {
   color: #0a66c2;
@@ -79,7 +86,7 @@
 }
 
 .therapy-photo-tall {
-  width: 600px;
+  width: 1200px;
   max-width: 100%;
   height: 100%;
   object-fit: cover;
