@@ -229,3 +229,89 @@ p {
     align-items: flex-start;
   }
 }
+
+.author-layout {
+  background: #efefef;
+}
+
+.author-hero {
+  position: relative;
+  min-height: 62vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(180deg, rgba(16, 17, 22, 0.7), rgba(16, 17, 22, 0.25)),
+    linear-gradient(120deg, #5d677a, #8f7f7f 45%, #6e846e);
+}
+
+.author-signature {
+  position: absolute;
+  top: 1.3rem;
+  left: 1.8rem;
+  font-family: 'Brush Script MT', 'Segoe Script', 'Lucida Handwriting', cursive;
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  color: #fff;
+  letter-spacing: 0.03em;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+}
+
+.hero-photo-placeholder {
+  width: min(100%, 1200px);
+  min-height: 130px;
+  border: 2px dashed rgba(255, 255, 255, 0.65);
+  border-radius: 0.5rem;
+  color: rgba(255, 255, 255, 0.95);
+  display: grid;
+  place-items: center;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.author-bio {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.bio-copy,
+.bio-photo,
+.photo-card {
+  background: #f7f7f7;
+}
+
+.portrait-placeholder,
+.small-photo-placeholder {
+  width: 100%;
+  border: 2px dashed #9ca0aa;
+  border-radius: 0.8rem;
+  display: grid;
+  place-items: center;
+  color: #616877;
+  font-style: italic;
+}
+
+.portrait-placeholder {
+  min-height: 430px;
+}
+
+.photo-card {
+  padding: 0.8rem;
+}
+
+.small-photo-placeholder {
+  min-height: 210px;
+}
+
+@media (max-width: 860px) {
+  .author-bio {
+    grid-template-columns: 1fr;
+  }
+
+  .author-signature {
+    left: 1rem;
+    top: 1rem;
+  }
+}
