@@ -1,3 +1,52 @@
+/* Custom layout for lauren-lamp photo on Therapy Services page */
+.lamp-flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3rem;
+  margin: 3rem 0 2rem;
+}
+
+.lamp-photo-col {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.lamp-photo-img {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  box-shadow: 0 10px 32px rgba(0,0,0,0.18);
+  display: block;
+}
+
+.lamp-cards-col {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .lamp-flex-row {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0 1rem;
+  }
+  .lamp-photo-col {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .lamp-photo-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+}
 /* Remove bullet and align LinkedIn row */
 .linkedin-row {
   margin: 0.5rem 0 0 0;
