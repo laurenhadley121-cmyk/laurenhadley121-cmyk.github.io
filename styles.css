@@ -1,3 +1,25 @@
+/* Contact page flex layout */
+.contact-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  margin: 2.5rem 0 2rem;
+  justify-content: space-between;
+}
+
+.contact-card {
+  flex: 1 1 0;
+  min-width: 280px;
+  max-width: 420px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .contact-flex {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 .therapy-cards-column {
   flex: 2 1 0;
   display: flex;
