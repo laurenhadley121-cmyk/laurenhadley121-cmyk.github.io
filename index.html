@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lauren Hadley — Personal Website</title>
-    <meta name="description" content="Personal website for Lauren Hadley with updates, writing, and future projects." />
-    <meta property="og:title" content="Lauren Hadley — Personal Website" />
-    <meta property="og:description" content="A personal site for updates, writing, and future work." />
-    <meta property="og:type" content="website" />
+    <title>Lauren Hadley — Therapist in Progress</title>
+    <meta
+      name="description"
+      content="A personal website introducing Lauren Hadley, sharing reflections on becoming a therapist, college counseling work, and literary inspiration."
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -16,9 +16,10 @@
         <a class="brand" href="index.html">Lauren Hadley</a>
         <ul class="nav-links">
           <li><a data-page href="index.html">Home</a></li>
-          <li><a data-page href="about.html">About</a></li>
-          <li><a data-page href="projects.html">Projects</a></li>
-          <li><a data-page href="blog.html">Blog</a></li>
+          <li><a data-page href="about.html">About Me</a></li>
+          <li><a data-page href="blog.html">Reflections</a></li>
+          <li><a data-page href="projects.html">College Counseling</a></li>
+          <li><a data-page href="inspiration.html">Literary Inspiration</a></li>
           <li><a data-page href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -26,40 +27,56 @@
 
     <main class="container">
       <section class="hero">
-        <span class="badge">Site in progress</span>
-        <h1>Hi, I’m Lauren Hadley. Welcome to my personal website.</h1>
-        <p>
-          I’m still building this site out. For now, this is the home base for my future projects,
-          writing, and updates.
-        </p>
-        <div class="cta-row">
-          <a class="button primary" href="about.html">About Me</a>
-          <a class="button" href="blog.html">Read Updates</a>
+        <div class="hero-copy">
+          <span class="badge">Welcome</span>
+          <h1>Hi, I’m Lauren — sharing the journey of becoming a therapist.</h1>
+          <p>
+            This space introduces who I am, what I am learning in this season, and where I draw
+            inspiration. It is intentionally personal and reflective.
+          </p>
+          <p class="disclaimer">
+            <strong>Important note:</strong> I am not a licensed therapist at this time. Content on
+            this site is for personal reflection and informational purposes only.
+          </p>
+          <div class="button-row">
+            <a class="button primary" href="about.html">Read My Introduction</a>
+            <a class="button" href="blog.html">Current Reflections</a>
+          </div>
         </div>
+        <aside class="hero-card">
+          <h2>What you'll find here</h2>
+          <ul class="list">
+            <li>A short personal introduction and values.</li>
+            <li>Ongoing reflections on therapist identity and growth.</li>
+            <li>A dedicated section on my college counseling work.</li>
+            <li>Books and writing that are shaping my thinking.</li>
+          </ul>
+        </aside>
       </section>
 
       <section class="section">
-        <h2>What’s here right now</h2>
         <div class="grid">
           <article class="card">
-            <h3>About</h3>
-            <p>Background and focus areas.</p>
+            <h3>About Me</h3>
+            <p class="placeholder">[Add your story, training path, and what draws you to this work.]</p>
           </article>
           <article class="card">
-            <h3>Projects</h3>
-            <p>No projects are published yet, but this section is ready for future additions.</p>
+            <h3>Reflections</h3>
+            <p class="placeholder">[Add regular entries about lessons, questions, and growth.]</p>
           </article>
           <article class="card">
-            <h3>Blog</h3>
-            <p>Space for notes and updates as the site grows.</p>
+            <h3>College Counseling</h3>
+            <p class="placeholder">[Share your current role, strengths, and student support approach.]</p>
+          </article>
+          <article class="card">
+            <h3>Literary Inspiration</h3>
+            <p class="placeholder">[List books, essays, and writers influencing your perspective.]</p>
           </article>
         </div>
       </section>
     </main>
 
-    <footer class="container footer">
-      © <span id="year"></span> Lauren Hadley
-    </footer>
+    <footer class="container footer">© <span id="year"></span> Lauren Hadley</footer>
     <script src="script.js"></script>
   </body>
 </html>
