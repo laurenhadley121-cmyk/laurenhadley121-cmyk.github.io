@@ -1,3 +1,16 @@
+/* Blue button for Therapy and College Counseling */
+.blue-button {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.blue-button:hover,
+.blue-button:focus {
+  background: #4a3970;
+  border-color: #4a3970;
+  color: #fff;
+}
 /* Hero Flex Layout for Home Page */
 .hero-flex {
   display: flex;
