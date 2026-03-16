@@ -1,3 +1,47 @@
+/* Therapy Flex Layout for Therapy Page */
+.therapy-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  margin: 3rem 0 2rem;
+}
+
+.therapy-image {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.therapy-photo {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.65rem;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+.therapy-text {
+  flex: 1 1 0;
+  max-width: 520px;
+}
+
+@media (max-width: 900px) {
+  .therapy-flex {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0 1rem;
+  }
+  .therapy-image {
+    justify-content: center;
+    width: 100%;
+  }
+  .therapy-photo {
+    width: 100%;
+    max-width: 320px;
+  }
+}
 /* Blue button for Therapy and College Counseling */
 .blue-button {
   background: var(--accent);
