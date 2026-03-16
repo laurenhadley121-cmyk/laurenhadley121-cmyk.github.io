@@ -6,7 +6,7 @@
     <title>About Me — Lauren Hadley</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="author-layout">
     <header>
       <nav class="container nav">
         <a class="brand" href="index.html">Lauren Hadley</a>
@@ -21,27 +21,65 @@
       </nav>
     </header>
 
-    <main class="container section page-hero">
-      <h1>About Me</h1>
-      <p class="placeholder">
-        [Write a warm introduction: who you are, where you are in your professional journey, and
-        why becoming a therapist matters to you.]
-      </p>
+    <main>
+      <section class="author-hero">
+        <div class="author-signature">Lauren Hadley</div>
+        <img
+          class="hero-photo"
+          src="assets/images/lauren-hero.jpg"
+          alt="Lauren Hadley seated in a bright room"
+        />
+      </section>
 
-      <div class="grid">
-        <article class="card">
-          <h2>My Path</h2>
-          <p class="placeholder">[Insert timeline highlights: education, internships, and key milestones.]</p>
+      <section class="container author-bio section">
+        <article class="bio-copy card">
+          <h1>About Me</h1>
+          <p>
+            I am currently in the process of becoming a therapist and deeply value the quiet,
+            reflective work of listening. My path is shaped by both formal training and everyday
+            moments of curiosity, compassion, and connection.
+          </p>
+          <p>
+            This space is where I collect those moments — a place to share what I am learning,
+            how my college counseling work is growing me, and the creative inspiration I return to
+            when I need perspective.
+          </p>
         </article>
-        <article class="card">
-          <h2>My Values</h2>
-          <ul class="list">
-            <li class="placeholder">[Value 1 + short explanation]</li>
-            <li class="placeholder">[Value 2 + short explanation]</li>
-            <li class="placeholder">[Value 3 + short explanation]</li>
-          </ul>
-        </article>
-      </div>
+
+        <aside class="bio-photo card">
+          <img
+            class="portrait-photo"
+            src="assets/images/lauren-portrait.jpg"
+            alt="Portrait of Lauren Hadley in a green sweater"
+          />
+        </aside>
+      </section>
+
+      <section class="container photo-grid section">
+        <div class="grid">
+          <article class="card photo-card">
+            <img
+              class="small-photo"
+              src="assets/images/lauren-lamp.jpg"
+              alt="Lauren Hadley sitting in front of a softly lit lamp"
+            />
+          </article>
+          <article class="card photo-card">
+            <img
+              class="small-photo"
+              src="assets/images/mountain-landscape.jpg"
+              alt="Blue mountain skyline with evergreen trees"
+            />
+          </article>
+          <article class="card photo-card">
+            <img
+              class="small-photo"
+              src="assets/images/iceberg-birds.jpg"
+              alt="Iceberg surrounded by birds on open water"
+            />
+          </article>
+        </div>
+      </section>
     </main>
 
     <footer class="container footer">© <span id="year"></span> Lauren Hadley</footer>
