@@ -89,8 +89,8 @@
     align-items: center;
   }
   .therapy-photo-tall {
-    width: 100%;
-    max-width: 1200px;
+    width: 500px;
+    max-width: 100%;
     height: auto;
   }
 }
